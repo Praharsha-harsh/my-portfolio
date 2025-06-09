@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Praharsha-harsh.github.io/portfolio",
+  "homepage": "https://Praharsha-harsh.github.io/my-portfolio",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -14,7 +14,7 @@
     "web-vitals": "^2.1.4"
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
