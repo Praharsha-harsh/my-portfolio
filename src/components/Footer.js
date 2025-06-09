@@ -1,9 +1,9 @@
 import React from 'react';
-import './Footer.css'; // Add this CSS file in the same folder
+import './Footer.css';
 
 const Footer = () => (
   <footer className="footer">
-    <p>© {new Date().getFullYear()} Praharsha Harsh. All rights reserved.</p>
+    <p>© {new Date().getFullYear()} Praharsha H V. All rights reserved. | Hassan, Karnataka, India</p>
   </footer>
 );
 

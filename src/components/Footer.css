@@ -1,10 +1,23 @@
 .footer {
-  padding: 1.5rem 2rem;
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+  color: white;
   text-align: center;
-  background-color: #111;
-  color: #f1f1f1;
-  font-size: 0.95rem;
+  padding: 2rem;
   position: relative;
-  bottom: 0;
-  width: 100%;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+  opacity: 0.9;
 }
