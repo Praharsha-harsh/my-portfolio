@@ -1,13 +1,22 @@
 import React from 'react';
+import './Projects.css'; // Create this CSS file in the same folder
 
 const Projects = () => (
-  <section id="projects">
+  <section id="projects" className="projects-section">
     <h2>Projects</h2>
-    <div>
+
+    <div className="project-card">
       <h3>Portfolio Website</h3>
-      <p>Simple personal portfolio using React.</p>
+      <p>A clean and responsive personal portfolio built using React and hosted on GitHub Pages.</p>
     </div>
-    {/* Add more projects as needed */}
+
+    {/* Add more projects here */}
+    {/* 
+    <div className="project-card">
+      <h3>Project Title</h3>
+      <p>Short description of the project.</p>
+    </div>
+    */}
   </section>
 );
 

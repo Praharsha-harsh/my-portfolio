@@ -1,10 +1,13 @@
 import React from 'react';
+import './Header.css'; // Link to the CSS file
 
 const Header = () => (
-  <header>
-    <h1>Your Name</h1>
-    <nav>
-      <a href="#about">About</a> | <a href="#projects">Projects</a> | <a href="#contact">Contact</a>
+  <header className="header">
+    <h1 className="header-title">Praharsha Harsh</h1>
+    <nav className="navbar">
+      <a href="#about" className="nav-link">About</a>
+      <a href="#projects" className="nav-link">Projects</a>
+      <a href="#contact" className="nav-link">Contact</a>
     </nav>
   </header>
 );

@@ -5,15 +5,17 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import './App.css';
+import './App.css'; // Optional custom CSS
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-800">
+    <div className="app-container">
       <Header />
-      <About />
-      <Projects />
-      <Contact />
+      <main>
+        <About />
+        <Projects />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );

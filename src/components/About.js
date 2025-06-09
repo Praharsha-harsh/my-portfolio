@@ -1,11 +1,20 @@
 import React from 'react';
-// import profile from '../assets/profile.jpg';
+// import profile from '../assets/profile.jpg'; // Uncomment if you add a profile image
+import './About.css'; // Link to CSS (you'll create this)
 
 const About = () => (
-  <section id="about">
-    <h2>About Me</h2>
-    {/* <img src={profile} alt="Profile" width="150" /> */}
-    <p>I am a Ract developer passionate about building web apps.</p>
+  <section id="about" className="about-section">
+    <div className="about-content">
+      {/* <img src={profile} alt="Profile" className="about-image" /> */}
+      <div className="about-text">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate <strong>React developer</strong> who loves building
+          beautiful, fast, and functional web apps. I enjoy turning ideas into real-life projects
+          that help people and businesses.
+        </p>
+      </div>
+    </div>
   </section>
 );
 

@@ -18,3 +18,10 @@ section {
 img {
   border-radius: 50%;
 }
+.app-container {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #0f172a, #6b21a8, #1e293b);
+  color: #f9fafb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
